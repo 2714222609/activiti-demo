@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/activiti?useUnicode=true&characterEncoding=utf8&serverTime=UTC
+    username: root
+    password: 111111
+  activiti:
+    database-schema-update: true
+    db-history-used: true
+    history-level: full
+
+project:
+  manifest:
+    file:
+      path: classpath:/default-project.json
